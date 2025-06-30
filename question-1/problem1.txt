@@ -1,0 +1,15 @@
+Question 1:
+Problem Statement:
+Design a User class that holds the following properties:
+
+name (string)
+email (string)
+role (enum: Admin, Editor, Viewer)
+Create an interface IUser with a describe() method that outputs a formatted string like:
+
+Name: John | Email: john@example.com | Role: Admin
+Extend this system:
+
+Use interfaces for structure
+Use enums for roles
+Add a subclass PremiumUser with an extra method activatePremium() that returns "Premium features activated".

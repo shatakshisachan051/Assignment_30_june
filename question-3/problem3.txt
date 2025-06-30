@@ -1,0 +1,14 @@
+Question 3:
+Problem Statement:
+Create a small Booking System using Factory Pattern.
+
+Define an interface IBooking with:
+book(): string
+Create concrete classes:
+HotelBooking
+FlightBooking
+TrainBooking
+Each should implement the interface and return a custom string like "Hotel booked at Marriott".
+
+Create a BookingFactory that returns an object of type IBooking based on a string like "hotel", "flight", "train".
+Simulate a booking using user input (e.g., const type = "flight").

@@ -1,0 +1,20 @@
+Question 2:
+Problem Statement:
+You're building a system for managing course subscriptions on an e-learning platform. The platform offers a base subscription, which can be enhanced with additional features like Certificate, Doubt Support, and Mentor Access.
+
+Requirements:
+Create an abstract class CourseSubscription:
+getDescription(): string
+getCost(): number
+Implement a concrete class BasicSubscription:
+Description: "Basic Subscription"
+Cost: 499
+Implement decorators:
+CertificateAddon (+ ₹200)
+DoubtSupportAddon (+ ₹300)
+MentorAccessAddon (+ ₹500)
+Each decorator should:
+
+Wrap an existing CourseSubscription
+Extend the description (e.g., "Basic Subscription + Certificate")
+Add to the total cost
